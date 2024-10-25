@@ -21,7 +21,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -52,14 +51,16 @@ import pdf from "./pdf.png";
 
 import LinkedIn from "./linkedin.png";
 import Twitter from "./twitter.png";
-import insta from "./insta.png"
+import insta from "./insta.png";
 import Resume from "./resume.png";
 import research from "./research.png";
-import gfg from "./gfg.svg"
 
+import gfg from "./gfg.svg";
+import leetcode from "./leetcode.svg";
 
 export {
   LinkedIn,
+  leetcode,
   gfg,
   Twitter,
   insta,

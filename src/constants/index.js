@@ -44,6 +44,7 @@ import {
   Resume,
   github,
   gfg,
+  leetcode
 } from "../assets";
 
 export const navLinks = [
@@ -184,7 +185,7 @@ const social = [
   },
   {
     name: "LeetCode",
-    icon: insta,
+    icon: leetcode,
     link: "https://leetcode.com/u/iemashwani/",
   },
   {
