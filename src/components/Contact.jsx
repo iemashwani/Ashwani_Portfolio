@@ -5,12 +5,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { fadeIn } from "../utils/motion";
 
 import { social } from "../constants";
 
 const SocialCard = ({ name, icon, index, link }) => (
-  <div className="mt-1 justify-center">
+  <div className="mt-1 justify-center rounded-3xl">
     <div className="mt-1 flex justify-between items-center gap-1">
       <div className="">
         <p className="text-secondary font-mono flex justify-center text-[13px]">

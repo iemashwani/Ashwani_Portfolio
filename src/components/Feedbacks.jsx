@@ -26,13 +26,13 @@ const FeedbackCard = ({
           <p className="text-pretty font-mono">
             <span className="blue-text-gradient">-</span> {name}
           </p>
-          <p className="text-secondary font-bold text-[13px] mt-1"> from {company}</p>
+          <p className="text-secondary font-bold text-[13px] mt-1">
+            {" "}
+            from {company}
+          </p>
         </div>
         <a href={image}>
-            <img 
-            src={icon}
-            className="w-10 h-10 rounded-full object-cover"
-            />
+          <img src={icon} className="w-10 h-10 rounded-full object-cover" />
         </a>
       </div>
     </div>
@@ -59,4 +59,4 @@ const Feedbacks = () => {
   );
 };
 
-export default SectionWrapper(Feedbacks,"");
+export default SectionWrapper(Feedbacks, "");
