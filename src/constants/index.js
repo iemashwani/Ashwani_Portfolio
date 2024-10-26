@@ -44,7 +44,9 @@ import {
   Resume,
   github,
   gfg,
-  leetcode
+  leetcode,
+  mail,
+  whatsapp,
 } from "../assets";
 
 export const navLinks = [
@@ -184,6 +186,11 @@ const social = [
     link: "https://docs.google.com/document/d/1M9y9gbDEBi5S5JSyyTYQWNDS7HYiqeu0JkiSZawCy2k/edit?usp=sharing",
   },
   {
+    name: "Email",
+    icon: mail,
+    link: "mailto:iemashwani2004@gmail.com",
+  },
+  {
     name: "LeetCode",
     icon: leetcode,
     link: "https://leetcode.com/u/iemashwani/",
@@ -208,8 +215,12 @@ const social = [
     icon: Twitter,
     link: "https://x.com/iemashwanisingh",
   },
-  
 
+  {
+    name: "Whatsapp",
+    icon: whatsapp,
+    link: "https://x.com/iemashwanisingh",
+  },
 ];
 const cources = [
   {
@@ -314,4 +325,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, education, cources, projects,social};
+export { services, technologies, education, cources, projects, social };

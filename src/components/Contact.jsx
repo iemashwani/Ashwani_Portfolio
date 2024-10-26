@@ -10,26 +10,21 @@ import { fadeIn } from "../utils/motion";
 import { social } from "../constants";
 
 const SocialCard = ({ name, icon, index, link }) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 1.5, 0.75)}
-    className=" p-1 rounded-3xl xs:w-[80px] w-full h-full"
-  >
-    <div className="mt-1 justify-center">
-      <div className="mt-1 flex justify-between items-center gap-1">
-        <div className="">
-          <p className="text-secondary font-mono flex justify-center text-[13px]">
-            {name}
-          </p>
-          <a href={link}>
-            <img
-              src={icon}
-              className="w-12 h-12 rounded-full object-cover items-center justify-between"
-            />
-          </a>
-        </div>
+  <div className="mt-1 justify-center">
+    <div className="mt-1 flex justify-between items-center gap-1">
+      <div className="">
+        <p className="text-secondary font-mono flex justify-center text-[13px]">
+          {name}
+        </p>
+        <a href={link}>
+          <img
+            src={icon}
+            className="w-12 h-12 rounded-full object-cover items-center justify-between"
+          />
+        </a>
       </div>
     </div>
-  </motion.div>
+  </div>
 );
 
 const Contact = () => {

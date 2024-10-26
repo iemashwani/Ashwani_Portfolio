@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { pdf } from "../assets";
 
 const ServideCard = ({ index, title, icon }) => {
   return (
@@ -49,6 +50,15 @@ const About = () => {
         expertise in software development. I published research on heart disease
         prediction. I am eager to apply my technical skills in a dynamic
         software development role.
+        <div className=" text-white-100 mt-5 flex flex-wrap gap-1">
+          Download CV
+          <a href="https://drive.google.com/file/d/1qYZUz9MY6s6lTptmrvZmxmNXm_2Aq7xA/view?usp=sharing">
+            <img 
+            src={pdf}
+            className="w-8 h-8 rounded-full"
+            />
+        </a>
+        </div>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

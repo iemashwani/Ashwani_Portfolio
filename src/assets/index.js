@@ -57,8 +57,13 @@ import research from "./research.png";
 
 import gfg from "./gfg.svg";
 import leetcode from "./leetcode.svg";
+import whatsapp from "./whatsapp.png";
+import mail from "./mail.png";
+
 
 export {
+  mail,
+  whatsapp,
   LinkedIn,
   leetcode,
   gfg,
