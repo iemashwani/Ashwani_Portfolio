@@ -219,7 +219,7 @@ const social = [
   {
     name: "Whatsapp",
     icon: whatsapp,
-    link: "https://x.com/iemashwanisingh",
+    link: "https://wa.me/qr/TYEQOIGN44N5J1",
   },
 ];
 const cources = [
