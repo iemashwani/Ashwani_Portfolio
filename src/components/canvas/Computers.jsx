@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { git } from "../../assets";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -23,7 +24,12 @@ const Computers = ({ isMobile }) => {
         scale={isMobile ? 0.7 : 0.85}
         position={isMobile ? [0, -3, -2.2] : [0, -3.5, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
-      />
+      >
+        <div>
+        <img src={git}>
+        </img>
+      </div>
+      </primitive>
     </mesh>
   );
 };

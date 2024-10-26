@@ -30,7 +30,6 @@ const App = () => {
           <Contact /> 
           <StarsCanvas/>
         </div>
-        {/* <StarsCanvas/> */}
 
       </div>
     </BrowserRouter>
